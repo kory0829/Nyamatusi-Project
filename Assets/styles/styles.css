@@ -1,0 +1,1224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*+++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
++++++++++++++MAIN SCSS++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++*/
+:root {
+  --h2: rgb(95, 94, 94);
+}
+
+/*START OF BANNER SECT*/
+.banner {
+  background-image: url("/Assets/styles/Images/banner.png");
+  height: 110vh;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner nav h3 {
+  padding: 0 100px;
+  margin-top: 20px;
+  font-family: regular;
+  font-size: 20px;
+  color: orangered;
+}
+.banner nav ul {
+  display: flex;
+  margin-top: 20px;
+  position: absolute;
+  right: 100px;
+  list-style: none;
+}
+.banner nav ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding-left: 20px;
+  font-family: light;
+}
+.banner nav ul a:hover {
+  color: orangered;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.banner .icons {
+  position: absolute;
+  display: flex;
+  margin-left: 95%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.banner .icons img {
+  height: 20px;
+  width: 20px;
+  margin: 15px 0;
+}
+.banner h1 {
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  margin-top: 200px;
+  font-family: light;
+  font-weight: 600;
+}
+.banner hr {
+  color: rgb(255, 255, 255);
+}
+.banner #vee li a i {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  padding-top: 130px;
+}
+.banner #arrow {
+  position: absolute;
+  left: 48%;
+  top: 93%;
+  size: 10%;
+}
+.banner #arrow .img {
+  width: 60%;
+}
+
+/*END OF BANNER SECT*/
+/* START OF ABOUT SECT */
+.about {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  padding-top: 60px;
+}
+.about h1 {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 100px;
+  font-family: light;
+}
+.about p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: light;
+}
+.about .part1 {
+  margin-top: 50px;
+}
+.about button {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(255, 69, 20);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border: none;
+  border-radius: none;
+  font-family: light;
+  margin-top: 65px;
+}
+.about .col-8 {
+  margin-top: 150px;
+  height: 30%;
+  width: 50%;
+  margin-left: 20px;
+}
+.about .lion {
+  margin-top: 20px;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.about .sun {
+  width: 100%;
+}
+
+/* END OF ABOUT SECT */
+/* START OF ACTIVITIES SECT */
+.activities {
+  height: 100vh;
+  padding-top: 130px;
+  background-color: rgb(255, 255, 255);
+}
+.activities .flex-fill img {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.activities .flex-fill img:hover {
+  transform: scale(1.3);
+}
+.activities h3 {
+  font-size: 30px;
+  color: var(--h2);
+  margin-bottom: 50px;
+  font-family: light;
+}
+.activities h2 {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1920px;
+  margin-left: 10px;
+  font-family: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.activities p {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1940px;
+  margin-left: 10px;
+  font-family: light;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.activities h4 {
+  position: absolute;
+  top: 1990px;
+  transform: translate(-10%, -10%);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  font-family: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* END OF ACTIVITIES SECT */
+/* START OF WILDLIFE SECT */
+.wildlife {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.wildlife h2 {
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: light;
+  color: var(--h2);
+}
+.wildlife p {
+  padding-top: 50px;
+  font-size: 18px;
+  margin-bottom: 70px;
+  font-family: light;
+  color: var(--h2);
+}
+.wildlife #one {
+  padding-top: 20px;
+}
+.wildlife #two {
+  padding-top: 90px;
+}
+.wildlife #three {
+  padding-top: -10px;
+  margin-left: 8px;
+}
+.wildlife #four {
+  margin-top: -200px;
+  padding-bottom: 10px;
+}
+.wildlife #six {
+  margin-left: -85px;
+  margin-top: -100px;
+}
+
+/* END OF WILDLIFE SECT */
+/* START OF ITENARIES SECT */
+#title {
+  font-size: 30px;
+  font-family: light;
+  color: rgb(95, 94, 94);
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.card-container .card {
+  position: relative;
+  width: 290px;
+  height: 400px;
+}
+.card-container .card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-container .card .overlay2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.358);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.card-container .card .overlay2 h3 {
+  text-align: center;
+  font-style: italic;
+  font-family: bold;
+  font-size: 15px;
+  color: white;
+  padding-bottom: 10px;
+  bottom: 0;
+  margin-top: 120%;
+}
+.card-container .card .overlay2 p {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  bottom: 0;
+}
+.card-container .card .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 80, 12, 0.973);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  color: white;
+}
+.card-container .card .overlay h2 {
+  font-family: bold;
+  text-align: left;
+  font-size: 18px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.card-container .card .overlay p {
+  margin: 20px;
+}
+.card-container .card .overlay h4 {
+  font-size: 20px;
+  font-family: bold;
+  margin-left: 10px;
+}
+.card-container .card:hover .overlay {
+  height: 100%;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 20px;
+}
+
+.overlay h5 {
+  font-family: light;
+  font-size: 15px;
+}
+
+span {
+  margin-left: auto;
+}
+
+#top {
+  display: flex;
+}
+
+#heart {
+  width: 50px;
+  height: 50px;
+  top: 0;
+  margin-left: 50px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* END OF ITENARIES SECT */
+/* START OF TESTIMONIALS SECT*/
+.testimonials {
+  padding-top: 0px;
+}
+.testimonials h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 160px;
+  font-family: light;
+  color: var(--h2);
+}
+.testimonials .img {
+  position: relative;
+}
+.testimonials .img .ite {
+  position: absolute;
+  top: 0;
+  height: 99.5%;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.223);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.testimonials .img .ite h4 {
+  color: white;
+  margin-bottom: 10px;
+  margin-bottom: 40px;
+  line-height: 1.4px;
+  font-size: 18px;
+  font-family: regular;
+  font-style: italic;
+  font-weight: bold;
+}
+.testimonials .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  height: 56.5vh;
+  margin: 20px 0;
+}
+.testimonials .info img {
+  margin-bottom: 15px;
+}
+.testimonials .info hr {
+  background-color: red;
+  width: 20%;
+}
+.testimonials .info p {
+  font-size: 17px;
+  font-family: regular;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  width: 70%;
+}
+.testimonials .info h4 {
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: regular;
+}
+
+/* END OF TESTIMONIALS SECT*/
+/* START OF OUR GALLERY SECT*/
+.our-gallery {
+  height: 100vh;
+}
+.our-gallery h2 {
+  margin-left: 113px;
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 160px;
+  font-family: light;
+  color: var(--h2);
+}
+.our-gallery .car {
+  height: 200px;
+}
+.our-gallery .elephant {
+  padding-bottom: 20px;
+}
+
+/* END OF OUR GALLERY SECT*/
+/* START OF FOOTER SECT*/
+footer {
+  margin-top: 50px;
+  height: 50vh;
+  background-color: orangered;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+footer hr {
+  color: rgb(255, 255, 255);
+}
+footer .container {
+  color: rgb(255, 255, 255);
+  padding-top: 5px;
+}
+footer .container .row .friends {
+  padding: 5px;
+}
+footer .container .copyright {
+  padding-bottom: 50px;
+}
+footer .container h3 {
+  font-size: 20px;
+  padding-top: 40PX;
+  padding-bottom: 20px;
+  font-family: bold;
+}
+footer .container ul li {
+  list-style: none;
+  padding: 10px;
+  font-family: light;
+}
+footer .container .Email {
+  width: 160px;
+  height: 5vh;
+  border: none;
+}
+footer .container .button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 35, 35);
+  border-radius: none;
+  width: 70px;
+  height: 5vh;
+  border: none;
+}
+footer .container hr {
+  height: 100px;
+}
+
+/* END OF OUR FOOTER SECT*/
+/*+++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
++++++++++++++MEDIA QUERIES++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++*/
+/* iPhone 6s Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* Adjustments for banner section */
+  .banner {
+    height: 100vh;
+    padding-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    background-position: center;
+  }
+  /* Adjustments for navigation */
+  .banner .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    margin-top: 550px;
+    right: 0;
+    margin-right: 130px;
+  }
+  .banner h1 {
+    font-size: 50px;
+    margin-top: 170px;
+  }
+  #arrow {
+    left: 48%;
+    top: 25%;
+    size: 10%;
+  }
+  /* Adjustments for About section */
+  .about {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  .about h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .about p {
+    font-size: 16px;
+    width: 200%;
+  }
+  .about button {
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .about .col-8 {
+    margin-top: 150px;
+    height: 50%;
+    width: 50%;
+  }
+  .about .lion {
+    margin-top: 10px;
+    height: 50%;
+    width: 135%;
+    margin-bottom: 10px;
+  }
+  .about .sun {
+    margin-top: 10px;
+    height: 50%;
+    width: 135%;
+    margin-bottom: 10px;
+  }
+  /* Adjustments for Activities section */
+  .activities {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .activities h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .activities h2 {
+    font-size: 18px;
+    top: auto;
+    margin-left: 10px;
+    margin-top: -150px;
+  }
+  .activities p {
+    font-size: 10px;
+    top: auto;
+    margin-left: 10px;
+    margin-top: -120px;
+  }
+  .activities h4 {
+    font-size: 15px;
+    top: auto;
+    transform: none;
+    margin-left: 20px;
+    margin-top: -100px;
+  }
+  .activities h5 {
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    transform: none;
+    margin-left: 15px;
+    margin-top: 4990px;
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .activities .flex-fill img {
+    height: auto;
+    margin: 10px auto;
+    align-items: center;
+  }
+  /* Adjustments for Wildlife section */
+  .wildlife {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  .wildlife h2 {
+    padding-top: 20px;
+    font-size: 24px;
+  }
+  .wildlife p {
+    padding-top: 30px;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  .wildlife img {
+    width: 100%;
+    height: auto;
+  }
+  .wildlife .col-md-2 {
+    padding: 0 5px;
+  }
+  .wildlife #one {
+    width: 100%;
+    margin-bottom: -15%;
+  }
+  .wildlife #two {
+    width: 100%;
+    margin-bottom: 15%;
+  }
+  .wildlife #three {
+    width: 100%;
+    margin-bottom: 70%;
+  }
+  .wildlife #four {
+    width: 100%;
+    margin-bottom: 13%;
+    margin-left: auto;
+  }
+  .wildlife #five {
+    width: 100%;
+    margin-bottom: 25%;
+  }
+  .wildlife #six {
+    margin-left: auto;
+    margin-top: -50px;
+  }
+  /* Adjustments for Itineraries section */
+  .itenaries {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .itenaries #title {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .itenaries .card-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .itenaries .card {
+    width: 300px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+  .itenaries .overlay2 h3,
+  .itenaries .overlay2 p {
+    font-size: 12px;
+  }
+  .itenaries .overlay h2,
+  .itenaries .overlay p,
+  .itenaries .overlay h4 {
+    font-size: 14px;
+  }
+  .itenaries ul {
+    margin: 10px;
+  }
+  .itenaries #heart {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .itenaries span {
+    margin-left: 60px;
+  }
+  .itenaries .text {
+    font-size: 16px;
+  }
+  /* Adjustments for Testimonials section */
+  .testimonials {
+    padding-top: 20px;
+  }
+  .testimonials h2 {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  .testimonials .img .ite {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  .testimonials .img .ite h4 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .testimonials .info {
+    height: auto;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+  }
+  .testimonials .info hr {
+    width: 10%;
+    margin: 10px auto;
+  }
+  .testimonials .info p {
+    font-size: 14px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .testimonials .info h4 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  /* Adjustments for Our Gallery section */
+  .our-gallery {
+    padding-top: 20px;
+    height: auto;
+  }
+  .our-gallery h2 {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  .our-gallery .car {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .our-gallery .elephant {
+    padding-bottom: 10px;
+  }
+  .our-gallery img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /* Adjustments for footer */
+  footer {
+    height: auto;
+    margin-top: 10px;
+  }
+  footer hr {
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+  .friends .col-3 {
+    width: 300%;
+  }
+  .footer-items ul {
+    display: flex;
+    flex-direction: column;
+  }
+  li {
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+  }
+  footer .Email,
+  footer .button {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+/* iPad Mini (3rd and 4th generation) Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* Adjustments for banner section */
+  .banner {
+    height: 100vh;
+    padding-top: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+  }
+  /* Adjustments for navigation */
+  .banner .icons {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner h1 {
+    font-size: 74px;
+    margin-top: 250px;
+  }
+  #arrow {
+    left: 48%;
+    top: 25%;
+    size: 15%;
+  }
+  /* Adjustments for About section */
+  .about {
+    height: 130vh;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  .about h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  .about p {
+    font-size: 24px;
+    width: 200%;
+  }
+  .about button {
+    height: 60px;
+    width: 200px;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  .about .col-8 {
+    margin-top: 680px;
+    margin-left: 60px;
+    height: 50%;
+    width: 60%;
+    position: absolute;
+    left: 0;
+  }
+  .about .lion {
+    height: 60%;
+    width: 25%;
+    right: 0;
+    position: absolute;
+    margin-top: 647px;
+    margin-right: 79px;
+  }
+  .about .sun {
+    height: 60%;
+    position: absolute;
+    margin-top: 980px;
+    right: 0;
+    margin-right: 79px;
+    width: 25%;
+  }
+  /* Adjustments for Activities section */
+  .activities {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .activities h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .activities .activity h2 {
+    font-size: 15px;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 2770px;
+    position: absolute;
+  }
+  .activities .activity p {
+    font-size: 9px;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 2790px;
+    display: block;
+  }
+  .activities .activity h4 {
+    font-size: 13px;
+    top: 0;
+    transform: none;
+    margin-left: 15px;
+    margin-top: 2830px;
+  }
+  .activities .activity h5 {
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    transform: none;
+    margin-left: 15px;
+    margin-top: 3190px;
+    position: absolute;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .activities .activities .d-flex {
+    flex-direction: column;
+  }
+  /* Adjustments for Wildlife section */
+  .wildlife {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .wildlife h2 {
+    padding-top: 40px;
+    font-size: 36px;
+  }
+  .wildlife p {
+    padding-top: 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .wildlife img {
+    width: 133%;
+    height: auto;
+  }
+  .wildlife .col-md-2 {
+    padding: 0 10px;
+  }
+  .wildlife #one {
+    width: 100%;
+    margin-bottom: -20%;
+    padding-right: 5px;
+  }
+  .wildlife #two {
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  .wildlife #three {
+    width: 100%;
+    margin-bottom: 80%;
+    padding-right: 5px;
+  }
+  .wildlife #four {
+    width: 100%;
+    margin-bottom: 1%;
+    margin-left: auto;
+  }
+  .wildlife #five {
+    width: 100%;
+    margin-bottom: 30%;
+  }
+  .wildlife #six img {
+    margin-left: 54px;
+    margin-top: 95px;
+    width: 175px;
+    padding-left: 12px;
+    height: 280px;
+    position: relative;
+  }
+  /* Adjustments for Itineraries section */
+  .itenaries {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 50vh;
+  }
+  .itenaries #title {
+    font-size: 36px;
+    margin-left: 40px;
+    margin-top: 80px;
+  }
+  .itenaries .card-container {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .itenaries .card {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+  }
+  .itenaries .overlay2 h3,
+  .itenaries .overlay2 p {
+    font-size: 18px;
+  }
+  .itenaries .overlay h2,
+  .itenaries .overlay p,
+  .itenaries .overlay h4 {
+    font-size: 20px;
+  }
+  .itenaries ul {
+    margin: 20px;
+  }
+  .itenaries #heart {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+  }
+  .itenaries span {
+    margin-left: 80px;
+  }
+  .itenaries .text {
+    font-size: 20px;
+  }
+  /* Adjustments for Testimonials section */
+  .testimonials {
+    padding-top: 40px;
+  }
+  .testimonials h2 {
+    font-size: 36px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+  }
+  .testimonials .img .ite {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  .testimonials .img .ite h4 {
+    font-size: 20px;
+    margin-top: 200px;
+  }
+  .testimonials .info {
+    height: auto;
+    margin: 15px 0;
+    padding: 0 20px;
+    border: solid;
+    border-color: red;
+    border-width: 1px;
+  }
+  .testimonials .info img {
+    width: 80px;
+    margin-top: 12px;
+  }
+  .testimonials .info hr {
+    width: 20%;
+    margin: 20px auto;
+    color: red;
+    width: 20%;
+    height: 2px;
+  }
+  .testimonials .info p {
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 0px;
+  }
+  .testimonials .info h4 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  /* Adjustments for Our Gallery section */
+  .our-gallery {
+    padding-top: 40px;
+    height: auto;
+  }
+  .our-gallery h2 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+  .our-gallery .car {
+    height: auto;
+  }
+  .our-gallery .car img {
+    height: 168px;
+  }
+  .our-gallery .hotel img {
+    height: 140px;
+  }
+  .our-gallery img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  /* Adjustments for footer */
+  footer {
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  footer hr {
+    height: 2px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  footer h3 {
+    font-size: 24px;
+  }
+  .friends .col-md-3 {
+    width: 33.333%;
+  }
+  .footer-items ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-items li {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  .footer-items .Email,
+  .footer-items .button {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=styles.css.map */
