@@ -217,26 +217,26 @@ table {
 
 /*END OF BANNER SECT*/
 /* START OF ABOUT SECT */
-.about {
+#about {
   height: 100vh;
   background-color: rgb(255, 255, 255);
   padding-top: 60px;
 }
-.about h1 {
+#about h1 {
   font-size: 40px;
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 100px;
   font-family: light;
 }
-.about p {
+#about p {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.7);
   font-family: light;
 }
-.about .part1 {
+#about .part1 {
   margin-top: 50px;
 }
-.about button {
+#about button {
   height: 50px;
   width: 150px;
   background-color: rgb(255, 69, 20);
@@ -247,43 +247,43 @@ table {
   font-family: light;
   margin-top: 65px;
 }
-.about .col-8 {
+#about .col-8 {
   margin-top: 150px;
   height: 30%;
   width: 50%;
   margin-left: 20px;
 }
-.about .lion {
+#about .lion {
   margin-top: 20px;
   height: 50%;
   width: 100%;
   margin-bottom: 15px;
 }
-.about .sun {
+#about .sun {
   width: 100%;
 }
 
 /* END OF ABOUT SECT */
 /* START OF ACTIVITIES SECT */
-.activities {
+#activities {
   height: 100vh;
   padding-top: 130px;
   background-color: rgb(255, 255, 255);
 }
-.activities .flex-fill img {
+#activities .flex-fill img {
   cursor: pointer;
   transition: 0.2s ease;
 }
-.activities .flex-fill img:hover {
+#activities .flex-fill img:hover {
   transform: scale(1.3);
 }
-.activities h3 {
+#activities h3 {
   font-size: 30px;
   color: var(--h2);
   margin-bottom: 50px;
   font-family: light;
 }
-.activities h2 {
+#activities h2 {
   font-size: 18px;
   color: rgb(255, 255, 255);
   position: absolute;
@@ -292,7 +292,7 @@ table {
   font-family: bold;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.activities p {
+#activities p {
   font-size: 13px;
   color: rgb(255, 255, 255);
   position: absolute;
@@ -301,7 +301,7 @@ table {
   font-family: light;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.activities h4 {
+#activities h4 {
   position: absolute;
   top: 1990px;
   transform: translate(-10%, -10%);
@@ -314,38 +314,38 @@ table {
 
 /* END OF ACTIVITIES SECT */
 /* START OF WILDLIFE SECT */
-.wildlife {
+#wildlife {
   margin-left: -10px;
   margin-right: -10px;
 }
-.wildlife h2 {
+#wildlife h2 {
   padding-top: 40px;
   font-size: 30px;
   font-family: light;
   color: var(--h2);
 }
-.wildlife p {
+#wildlife p {
   padding-top: 50px;
   font-size: 18px;
   margin-bottom: 70px;
   font-family: light;
   color: var(--h2);
 }
-.wildlife #one {
+#wildlife #one {
   padding-top: 20px;
 }
-.wildlife #two {
+#wildlife #two {
   padding-top: 90px;
 }
-.wildlife #three {
+#wildlife #three {
   padding-top: -10px;
   margin-left: 8px;
 }
-.wildlife #four {
+#wildlife #four {
   margin-top: -200px;
   padding-bottom: 10px;
 }
-.wildlife #six {
+#wildlife #six {
   margin-left: -85px;
   margin-top: -100px;
 }
@@ -467,20 +467,20 @@ span {
 
 /* END OF ITENARIES SECT */
 /* START OF TESTIMONIALS SECT*/
-.testimonials {
+#testimonials {
   padding-top: 0px;
 }
-.testimonials h2 {
+#testimonials h2 {
   font-size: 30px;
   margin-bottom: 50px;
   margin-top: 160px;
   font-family: light;
   color: var(--h2);
 }
-.testimonials .img {
+#testimonials .img {
   position: relative;
 }
-.testimonials .img .ite {
+#testimonials .img .ite {
   position: absolute;
   top: 0;
   height: 99.5%;
@@ -490,7 +490,7 @@ span {
   align-items: flex-end;
   justify-content: center;
 }
-.testimonials .img .ite h4 {
+#testimonials .img .ite h4 {
   color: white;
   margin-bottom: 10px;
   margin-bottom: 40px;
@@ -500,7 +500,7 @@ span {
   font-style: italic;
   font-weight: bold;
 }
-.testimonials .info {
+#testimonials .info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -509,21 +509,21 @@ span {
   height: 56.5vh;
   margin: 20px 0;
 }
-.testimonials .info img {
+#testimonials .info img {
   margin-bottom: 15px;
 }
-.testimonials .info hr {
+#testimonials .info hr {
   background-color: red;
   width: 20%;
 }
-.testimonials .info p {
+#testimonials .info p {
   font-size: 17px;
   font-family: regular;
   margin-bottom: 10px;
   line-height: 1.4;
   width: 70%;
 }
-.testimonials .info h4 {
+#testimonials .info h4 {
   margin-bottom: 10px;
   margin-bottom: 20px;
   line-height: 1.4;
@@ -533,10 +533,10 @@ span {
 
 /* END OF TESTIMONIALS SECT*/
 /* START OF OUR GALLERY SECT*/
-.our-gallery {
+#our-gallery {
   height: 100vh;
 }
-.our-gallery h2 {
+#our-gallery h2 {
   margin-left: 113px;
   font-size: 30px;
   margin-bottom: 50px;
@@ -544,10 +544,10 @@ span {
   font-family: light;
   color: var(--h2);
 }
-.our-gallery .car {
+#our-gallery .car {
   height: 200px;
 }
-.our-gallery .elephant {
+#our-gallery .elephant {
   padding-bottom: 20px;
 }
 
@@ -572,7 +572,7 @@ footer .container .row .friends {
   padding: 5px;
 }
 footer .container .copyright {
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 footer .container h3 {
   font-size: 20px;
@@ -640,234 +640,223 @@ footer .container hr {
     size: 10%;
   }
   /* Adjustments for About section */
-  .about {
+  #about {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: rgb(255, 255, 255);
   }
-  .about h1 {
+  #about h1 {
     font-size: 30px;
     margin-bottom: 50px;
   }
-  .about p {
+  #about p {
     font-size: 16px;
     width: 200%;
   }
-  .about button {
+  #about button {
     height: 40px;
     width: 120px;
     font-size: 16px;
     margin-top: 30px;
   }
-  .about .col-8 {
+  #about .col-8 {
     margin-top: 150px;
     height: 50%;
     width: 50%;
   }
-  .about .lion {
+  #about .lion {
     margin-top: 10px;
     height: 50%;
     width: 135%;
     margin-bottom: 10px;
   }
-  .about .sun {
+  #about .sun {
     margin-top: 10px;
     height: 50%;
     width: 135%;
     margin-bottom: 10px;
   }
   /* Adjustments for Activities section */
-  .activities {
+  #activities {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .activities h3 {
+  #activities h3 {
     font-size: 24px;
     margin-bottom: 30px;
   }
-  .activities h2 {
+  #activities h2 {
     font-size: 18px;
     top: auto;
     margin-left: 10px;
     margin-top: -150px;
   }
-  .activities p {
+  #activities p {
     font-size: 10px;
     top: auto;
     margin-left: 10px;
     margin-top: -120px;
   }
-  .activities h4 {
+  #activities h4 {
     font-size: 15px;
     top: auto;
     transform: none;
     margin-left: 20px;
     margin-top: -100px;
   }
-  .activities h5 {
-    font-size: 16px;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    transform: none;
-    margin-left: 15px;
-    margin-top: 4990px;
-    position: absolute;
-    color: white;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  }
-  .activities .flex-fill img {
+  #activities .flex-fill img {
     height: auto;
     margin: 10px auto;
     align-items: center;
   }
   /* Adjustments for Wildlife section */
-  .wildlife {
+  #wildlife {
     margin-left: -5px;
     margin-right: -5px;
   }
-  .wildlife h2 {
+  #wildlife h2 {
     padding-top: 20px;
     font-size: 24px;
   }
-  .wildlife p {
+  #wildlife p {
     padding-top: 30px;
     font-size: 16px;
     margin-bottom: 50px;
   }
-  .wildlife img {
+  #wildlife img {
     width: 100%;
     height: auto;
   }
-  .wildlife .col-md-2 {
+  #wildlife .col-md-2 {
     padding: 0 5px;
   }
-  .wildlife #one {
+  #wildlife #one {
     width: 100%;
     margin-bottom: -15%;
   }
-  .wildlife #two {
+  #wildlife #two {
     width: 100%;
     margin-bottom: 15%;
   }
-  .wildlife #three {
+  #wildlife #three {
     width: 100%;
     margin-bottom: 70%;
   }
-  .wildlife #four {
+  #wildlife #four {
     width: 100%;
     margin-bottom: 13%;
     margin-left: auto;
   }
-  .wildlife #five {
+  #wildlife #five {
     width: 100%;
     margin-bottom: 25%;
   }
-  .wildlife #six {
+  #wildlife #six {
     margin-left: auto;
     margin-top: -50px;
   }
   /* Adjustments for Itineraries section */
-  .itenaries {
+  #itenaries {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .itenaries #title {
+  #itenaries #title {
     font-size: 24px;
     margin-left: 20px;
     margin-top: 50px;
   }
-  .itenaries .card-container {
+  #itenaries .card-container {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
   }
-  .itenaries .card {
+  #itenaries .card {
     width: 300px;
     height: 450px;
     margin-bottom: 20px;
   }
-  .itenaries .overlay2 h3,
-  .itenaries .overlay2 p {
+  #itenaries .overlay2 h3,
+  #itenaries .overlay2 p {
     font-size: 12px;
   }
-  .itenaries .overlay h2,
-  .itenaries .overlay p,
-  .itenaries .overlay h4 {
+  #itenaries .overlay h2,
+  #itenaries .overlay p,
+  #itenaries .overlay h4 {
     font-size: 14px;
   }
-  .itenaries ul {
+  #itenaries ul {
     margin: 10px;
   }
-  .itenaries #heart {
+  #itenaries #heart {
     width: 30px;
     height: 30px;
     margin-left: 10px;
   }
-  .itenaries span {
+  #itenaries span {
     margin-left: 60px;
   }
-  .itenaries .text {
+  #itenaries .text {
     font-size: 16px;
   }
   /* Adjustments for Testimonials section */
-  .testimonials {
+  #testimonials {
     padding-top: 20px;
   }
-  .testimonials h2 {
+  #testimonials h2 {
     font-size: 24px;
     margin-top: 100px;
     margin-bottom: 30px;
   }
-  .testimonials .img .ite {
+  #testimonials .img .ite {
     height: 100%;
     align-items: center;
     justify-content: center;
     padding: 0 10px;
   }
-  .testimonials .img .ite h4 {
+  #testimonials .img .ite h4 {
     font-size: 14px;
     margin-bottom: 20px;
   }
-  .testimonials .info {
+  #testimonials .info {
     height: auto;
     margin: 10px 0;
     padding: 0 10px;
     border: none;
   }
-  .testimonials .info hr {
+  #testimonials .info hr {
     width: 10%;
     margin: 10px auto;
   }
-  .testimonials .info p {
+  #testimonials .info p {
     font-size: 14px;
     width: 90%;
     margin-bottom: 10px;
   }
-  .testimonials .info h4 {
+  #testimonials .info h4 {
     font-size: 12px;
     margin-bottom: 10px;
   }
   /* Adjustments for Our Gallery section */
-  .our-gallery {
+  #our-gallery {
     padding-top: 20px;
     height: auto;
   }
-  .our-gallery h2 {
+  #our-gallery h2 {
     font-size: 24px;
     margin-top: 100px;
     margin-left: 20px;
     margin-bottom: 30px;
   }
-  .our-gallery .car {
+  #our-gallery .car {
     height: auto;
     margin-bottom: 20px;
   }
-  .our-gallery .elephant {
+  #our-gallery .elephant {
     padding-bottom: 10px;
   }
-  .our-gallery img {
+  #our-gallery img {
     height: auto;
     width: 100%;
     margin-bottom: 20px;
@@ -930,28 +919,28 @@ footer .container hr {
     size: 15%;
   }
   /* Adjustments for About section */
-  .about {
+  #about {
     height: 130vh;
     padding-top: 20px;
     width: 100%;
     padding-bottom: 20px;
     background-color: rgb(255, 255, 255);
   }
-  .about h1 {
+  #about h1 {
     font-size: 48px;
     margin-bottom: 50px;
   }
-  .about p {
+  #about p {
     font-size: 24px;
     width: 200%;
   }
-  .about button {
+  #about button {
     height: 60px;
     width: 200px;
     font-size: 24px;
     margin-top: 30px;
   }
-  .about .col-8 {
+  #about .col-8 {
     margin-top: 680px;
     margin-left: 60px;
     height: 50%;
@@ -959,7 +948,7 @@ footer .container hr {
     position: absolute;
     left: 0;
   }
-  .about .lion {
+  #about .lion {
     height: 60%;
     width: 25%;
     right: 0;
@@ -967,7 +956,7 @@ footer .container hr {
     margin-top: 647px;
     margin-right: 79px;
   }
-  .about .sun {
+  #about .sun {
     height: 60%;
     position: absolute;
     margin-top: 980px;
@@ -976,95 +965,84 @@ footer .container hr {
     width: 25%;
   }
   /* Adjustments for Activities section */
-  .activities {
+  #activities {
     height: auto;
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .activities h3 {
+  #activities h3 {
     font-size: 36px;
     margin-bottom: 40px;
   }
-  .activities .activity h2 {
+  #activities #activity h2 {
     font-size: 15px;
     top: 0;
     margin-left: 10px;
     margin-top: 2770px;
     position: absolute;
   }
-  .activities .activity p {
+  #activities #activity p {
     font-size: 9px;
     top: 0;
     margin-left: 10px;
     margin-top: 2790px;
     display: block;
   }
-  .activities .activity h4 {
+  #activities #activity h4 {
     font-size: 13px;
     top: 0;
     transform: none;
     margin-left: 15px;
     margin-top: 2830px;
   }
-  .activities .activity h5 {
-    font-size: 16px;
-    background-color: rgba(0, 0, 0, 0.5);
-    top: 0;
-    transform: none;
-    margin-left: 15px;
-    margin-top: 3190px;
-    position: absolute;
-    color: white;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  }
-  .activities .activities .d-flex {
+  #activities #activities .d-flex {
     flex-direction: column;
   }
   /* Adjustments for Wildlife section */
-  .wildlife {
+  #wildlife {
     margin-left: 0;
     margin-right: 0;
   }
-  .wildlife h2 {
+  #wildlife h2 {
     padding-top: 40px;
     font-size: 36px;
   }
-  .wildlife p {
+  #wildlife p {
     padding-top: 20px;
     font-size: 15px;
     margin-bottom: 30px;
   }
-  .wildlife img {
+  #wildlife img {
     width: 133%;
     height: auto;
   }
-  .wildlife .col-md-2 {
+  #wildlife .col-md-2 {
     padding: 0 10px;
   }
-  .wildlife #one {
+  #wildlife #one {
     width: 100%;
     margin-bottom: -20%;
     padding-right: 5px;
   }
-  .wildlife #two {
+  #wildlife #two {
     width: 100%;
     margin-bottom: 20%;
   }
-  .wildlife #three {
+  #wildlife #three {
     width: 100%;
     margin-bottom: 80%;
     padding-right: 5px;
   }
-  .wildlife #four {
+  #wildlife #four {
     width: 100%;
     margin-bottom: 1%;
     margin-left: auto;
   }
-  .wildlife #five {
+  #wildlife #five {
     width: 100%;
     margin-bottom: 30%;
   }
-  .wildlife #six img {
+  #wildlife #six img {
     margin-left: 54px;
     margin-top: 95px;
     width: 175px;
@@ -1073,70 +1051,70 @@ footer .container hr {
     position: relative;
   }
   /* Adjustments for Itineraries section */
-  .itenaries {
+  #itenaries {
     padding-top: 40px;
     padding-bottom: 40px;
     height: 50vh;
   }
-  .itenaries #title {
+  #itenaries #title {
     font-size: 36px;
     margin-left: 40px;
     margin-top: 80px;
   }
-  .itenaries .card-container {
+  #itenaries .card-container {
     flex-direction: row;
     align-items: center;
     margin-top: 60px;
   }
-  .itenaries .card {
+  #itenaries .card {
     width: 200px;
     height: 300px;
     margin-bottom: 40px;
     margin-right: 20px;
   }
-  .itenaries .overlay2 h3,
-  .itenaries .overlay2 p {
+  #itenaries .overlay2 h3,
+  #itenaries .overlay2 p {
     font-size: 18px;
   }
-  .itenaries .overlay h2,
-  .itenaries .overlay p,
-  .itenaries .overlay h4 {
+  #itenaries .overlay h2,
+  #itenaries .overlay p,
+  #itenaries .overlay h4 {
     font-size: 20px;
   }
-  .itenaries ul {
+  #itenaries ul {
     margin: 20px;
   }
-  .itenaries #heart {
+  #itenaries #heart {
     width: 40px;
     height: 40px;
     margin-left: 20px;
   }
-  .itenaries span {
+  #itenaries span {
     margin-left: 80px;
   }
-  .itenaries .text {
+  #itenaries .text {
     font-size: 20px;
   }
   /* Adjustments for Testimonials section */
-  .testimonials {
+  #testimonials {
     padding-top: 40px;
   }
-  .testimonials h2 {
+  #testimonials h2 {
     font-size: 36px;
     margin-top: 120px;
     margin-bottom: 40px;
   }
-  .testimonials .img .ite {
+  #testimonials .img .ite {
     height: 100%;
     align-items: center;
     justify-content: center;
     padding: 0 20px;
   }
-  .testimonials .img .ite h4 {
+  #testimonials .img .ite h4 {
     font-size: 20px;
     margin-top: 200px;
   }
-  .testimonials .info {
+  #testimonials .info {
     height: auto;
     margin: 15px 0;
     padding: 0 20px;
@@ -1144,47 +1122,47 @@ footer .container hr {
     border-color: red;
     border-width: 1px;
   }
-  .testimonials .info img {
+  #testimonials .info img {
     width: 80px;
     margin-top: 12px;
   }
-  .testimonials .info hr {
+  #testimonials .info hr {
     width: 20%;
     margin: 20px auto;
     color: red;
     width: 20%;
     height: 2px;
   }
-  .testimonials .info p {
+  #testimonials .info p {
     font-size: 16px;
     width: 80%;
     margin-bottom: 0px;
   }
-  .testimonials .info h4 {
+  #testimonials .info h4 {
     font-size: 15px;
     margin-bottom: 20px;
   }
   /* Adjustments for Our Gallery section */
-  .our-gallery {
+  #our-gallery {
     padding-top: 40px;
     height: auto;
   }
-  .our-gallery h2 {
+  #our-gallery h2 {
     font-size: 36px;
     margin-top: 50px;
     margin-left: 40px;
     margin-bottom: 40px;
   }
-  .our-gallery .car {
+  #our-gallery .car {
     height: auto;
   }
-  .our-gallery .car img {
+  #our-gallery .car img {
     height: 168px;
   }
-  .our-gallery .hotel img {
+  #our-gallery .hotel img {
     height: 140px;
   }
-  .our-gallery img {
+  #our-gallery img {
     height: auto;
     width: 100%;
     margin-bottom: 40px;
